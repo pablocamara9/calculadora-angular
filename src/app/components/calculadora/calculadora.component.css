@@ -1,0 +1,21 @@
+.calculadora{
+    padding-top: 200px;
+    text-align: center;
+}
+
+.numeros{
+    margin: auto;
+    text-align: center;
+    width: 5%;
+}
+
+button{
+    margin: 2px;
+}
+
+.operaciones{
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+    width: 5%;
+}

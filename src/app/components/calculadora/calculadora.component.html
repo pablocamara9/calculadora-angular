@@ -1,0 +1,24 @@
+<div class="calculadora">
+    <input type="number" readonly [(ngModel)]="numInput" placeholder="0">
+
+    <br><br><br>
+    
+    <div class="numeros">
+        <button type="button" (click)="addNum('1')">1</button>
+        <button type="button" (click)="addNum('2')">2</button>
+        <button type="button" (click)="addNum('3')">3</button>
+        <button type="button" (click)="addNum('4')">4</button>
+        <button type="button" (click)="addNum('5')">5</button>
+        <button type="button" (click)="addNum('6')">6</button>
+        <button type="button" (click)="addNum('7')">7</button>
+        <button type="button" (click)="addNum('8')">8</button>
+        <button type="button" (click)="addNum('9')">9</button>
+        <button type="button" (click)="addNum('0')">0</button>
+    </div>
+
+    <div class="operaciones">
+        <button style="background-color: rgba(120, 120, 226, 0.829);" type="button" (click)="sumar()">+</button>
+        <button style="background-color: rgba(226, 120, 120, 0.829) ;" type="button" (click)="restar()">-</button>
+        <button style="background-color: rgba(226, 215, 120, 0.829) ;" type="button" (click)="resultado()">=</button>
+    </div>
+</div>
